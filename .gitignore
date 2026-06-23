@@ -479,15 +479,5 @@ docker-compose.staging.yml
 docker-compose.local.yml
 *.docker-compose.yml
 
-# ================================
-# Kubernetes
-# ================================
-*.kubeconfig
-*.kubeconfig.*
-.kube/
-*.k8s.yaml
-*.k8s.yml
-helm/
-charts/
-*.chart
+
 *.tgz

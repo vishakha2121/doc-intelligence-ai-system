@@ -411,18 +411,6 @@ pew/
 .dmypy.json
 dmypy.json
 
-# ================================
-# VSCode
-# ================================
-.vscode/
-*.code-workspace
-*.code-snippets
-.vscode-test/
-.vscode/extensions.json
-.vscode/settings.json
-.vscode/launch.json
-.vscode/tasks.json
-.vscode/workspace.code-workspace
 
 
 

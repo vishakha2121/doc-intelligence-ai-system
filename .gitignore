@@ -433,14 +433,7 @@ dmypy.json
 *.pynb
 *.ipynb_checkpoints/
 
-# ================================
-# JupyterLab
-# ================================
-.jupyter/
-lab_workspaces/
-jupyterlab-workspaces/
-*.jupyterlab-workspace
-jupyter_notebook_config.py
+
 
 
 

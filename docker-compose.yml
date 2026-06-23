@@ -107,14 +107,7 @@ services:
       # Security
       BCRYPT_ROUNDS: 12
       
-    volumes:
-      - ./backend:/app
-      - ./uploads:/app/uploads
-      - ./logs:/app/logs
-      - ./models:/app/models
-      - ./backend/app:/app/app
-      - tesseract_data:/usr/share/tesseract-ocr/4.00/tessdata
-  
+    
    
 
    

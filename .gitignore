@@ -272,17 +272,7 @@ site/
 .gitlab-ci.yml
 .github/workflows/*.local.yml
 
-# ================================
-# Monitoring & Analysis
-# ================================
-prometheus_data/
-grafana_data/
-elasticsearch_data/
-kibana_data/
-*.prof
-*.heapsnapshot
-*.cpuprofile
-*.heapdump
+
 
 
 

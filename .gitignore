@@ -461,12 +461,5 @@ conda-recipes/
 *.vocab
 *.vectors
 
-# ================================
-# TESSERACT
-# ================================
-*.traineddata
-*.traineddata.gz
-tessdata/
-tesseract_data/
-*.tesseract
+
 

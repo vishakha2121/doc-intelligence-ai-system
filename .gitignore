@@ -359,22 +359,7 @@ reports/
 *.summary
 *.metrics
 
-# Export files
-*.csv
-*.xlsx
-*.xls
-*.json
-*.xml
-*.yaml
-*.yml.bak
 
-# Backup files
-*.backup
-*.bak
-*.old
-*.orig
-*.copy
-*.save
 
 
 

@@ -376,26 +376,7 @@ reports/
 *.copy
 *.save
 
-# ================================
-# Python Virtual Environments
-# ================================
-venv/
-venv3/
-venv2/
-env/
-ENV/
-env.bak/
-venv.bak/
-pythonenv/
-pyenv/
-.venv/
-.python-version
-.python_env
-virtualenv/
-virtualenvs/
-pew/
-.venv3/
-.venv2/
+
 
 
 

@@ -284,24 +284,7 @@ kibana_data/
 *.cpuprofile
 *.heapdump
 
-# ================================
-# Security
-# ================================
-.ssh/
-.gnupg/
-*.gpg
-*.asc
-*.sig
-secrets/
-keys/
-certificates/
-credentials/
-password/
-*.secret
-*.encrypted
-*.enc
 
-# ================================
 
 
 

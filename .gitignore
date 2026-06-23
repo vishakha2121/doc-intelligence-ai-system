@@ -122,27 +122,7 @@ app.log
 combined.log
 *.log.*
 
-# ================================
-# Uploads & Media
-# ================================
-uploads/
-uploads/temp/
-uploads/processed/
-uploads/failed/
-uploads/*.pdf
-uploads/*.png
-uploads/*.jpg
-uploads/*.jpeg
-uploads/*.tiff
-uploads/*.bmp
-media/
-media/*
-!media/.gitkeep
-*.mp4
-*.mp3
-*.wav
-*.avi
-*.mov
+
 
 
 

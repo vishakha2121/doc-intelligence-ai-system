@@ -442,14 +442,6 @@ jupyterlab-workspaces/
 *.jupyterlab-workspace
 jupyter_notebook_config.py
 
-# ================================
-# Conda
-# ================================
-*.conda
-*.conda-env
-*.conda-pkg
-conda-meta/
-conda-recipes/
 
 
 

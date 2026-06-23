@@ -302,28 +302,6 @@ password/
 *.enc
 
 # ================================
-# Miscellaneous
-# ================================
-*.zip
-*.tar.gz
-*.rar
-*.7z
-*.iso
-*.dmg
-*.pkg
-*.deb
-*.rpm
-*.msi
-*.exe
-*.dll
-*.so
-*.dylib
-*.class
-*.jar
-*.war
-
-# Keep empty directories
-!.gitkeep
 
 
 

@@ -424,14 +424,7 @@ dmypy.json
 .vscode/tasks.json
 .vscode/workspace.code-workspace
 
-# ================================
-# Jupyter Notebooks
-# ================================
-.ipynb_checkpoints/
-*.ipynb
-*.pyc
-*.pynb
-*.ipynb_checkpoints/
+
 
 
 

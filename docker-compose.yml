@@ -89,13 +89,7 @@ services:
       ALLOWED_EXTENSIONS: '["pdf", "png", "jpg", "jpeg", "tiff", "bmp"]'
       UPLOAD_DIR: /app/uploads
       
-      # Logging Configuration
-      LOG_LEVEL: INFO
-      LOG_FILE: /app/logs/app.log
-      
-      # Tesseract Configuration
-      TESSERACT_PATH: /usr/bin/tesseract
-      TESSERACT_LANGUAGE: eng
+    
       
      
     

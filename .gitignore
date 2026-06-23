@@ -255,22 +255,7 @@ site/
 *.doctree
 *.inv
 
-# ================================
-# CI/CD
-# ================================
-.terraform/
-*.tfstate
-*.tfstate.*
-.terraform.lock.hcl
-*.plan
-*.apply
-.kube/
-.helm/
-*.kubeconfig
-*.kubeconfig.*
-*.kube
-.gitlab-ci.yml
-.github/workflows/*.local.yml
+
 
 
 

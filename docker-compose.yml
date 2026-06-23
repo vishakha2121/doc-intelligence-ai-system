@@ -114,13 +114,7 @@ services:
       - ./models:/app/models
       - ./backend/app:/app/app
       - tesseract_data:/usr/share/tesseract-ocr/4.00/tessdata
-    depends_on:
-      postgres:
-        condition: service_healthy
-      redis:
-        condition: service_healthy
-    networks:
-      - doc_network
+  
    
 
    

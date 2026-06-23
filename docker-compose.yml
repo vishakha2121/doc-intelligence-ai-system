@@ -275,9 +275,5 @@ services:
     profiles:
       - monitoring
 
-# Docker Networks
-networks:
-  doc_network:
-    driver: bridge
-    name: doc_intelligence_network
+
 

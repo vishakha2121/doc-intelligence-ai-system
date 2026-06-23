@@ -81,8 +81,7 @@ services:
       # CORS Configuration
       CORS_ORIGINS: '["http://localhost:3000", "http://localhost:8080"]'
       
-      # Gemini AI Configuration
-      GEMINI_API_KEY: your-gemini-api-key-here
+  
       
      
       

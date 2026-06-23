@@ -226,23 +226,7 @@ backend/*.sqlite
 backend/alembic/versions/*.pyc
 backend/migrations/__pycache__/
 
-# ================================
-# Testing & Coverage
-# ================================
-.coverage
-.coverage.*
-htmlcov/
-.tox/
-.nox/
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
-test-reports/
-test-results/
-junit.xml
-pytest-debug.log
+
 
 
 

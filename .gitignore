@@ -346,18 +346,7 @@ tesseract_data/
 *.model
 *.weights
 
-# Document processing
-documents/
-processed_documents/
-temp_documents/
-*.pdf.tmp
-*.jpg.tmp
 
-# Reports
-reports/
-*.report
-*.summary
-*.metrics
 
 
 

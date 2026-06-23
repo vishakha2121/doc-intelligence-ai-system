@@ -451,15 +451,7 @@ jupyter_notebook_config.py
 conda-meta/
 conda-recipes/
 
-# ================================
-# SPACY
-# ================================
-*.spacy
-*.spacy_model
-*.spacy_package
-*.pkl.spacy
-*.vocab
-*.vectors
+
 
 
 

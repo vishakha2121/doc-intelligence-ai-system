@@ -244,16 +244,7 @@ test-results/
 junit.xml
 pytest-debug.log
 
-# ================================
-# Documentation
-# ================================
-docs/_build/
-docs/_static/
-docs/_templates/
-site/
-*.sphinx/
-*.doctree
-*.inv
+
 
 
 

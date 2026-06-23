@@ -148,21 +148,7 @@ services:
       REACT_APP_THEME: light
       REACT_APP_ENABLE_ANALYTICS: "false"
       REACT_APP_SENTRY_DSN: ""
-      REACT_APP_GOOGLE_ANALYTICS_ID: ""
-      REACT_APP_FEATURE_FLAG_OCR: "true"
-      REACT_APP_FEATURE_FLAG_CLASSIFICATION: "true"
-      REACT_APP_FEATURE_FLAG_NER: "true"
-      REACT_APP_FEATURE_FLAG_EXTRACTION: "true"
-      CHOKIDAR_USEPOLLING: "true"
-      WATCHPACK_POLLING: "true"
-    volumes:
-      - ./frontend:/app
-      - /app/node_modules
-    depends_on:
-      - backend
-    networks:
-      - doc_network
-    stdin_open: true
+     true
     tty: true
 
 

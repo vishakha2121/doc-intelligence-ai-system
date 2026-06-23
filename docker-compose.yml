@@ -127,15 +127,7 @@ services:
         uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
       "
 
-  # Frontend React Application
-  frontend:
-    build:
-      context: ./frontend
-      dockerfile: Dockerfile
-    container_name: doc_intelligence_frontend
-    restart: always
-    ports:
-      - "3000:3000"
+
    
 
   

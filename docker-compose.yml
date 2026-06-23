@@ -220,25 +220,7 @@ services:
     profiles:
       - monitoring
 
-  # Grafana Dashboards (Optional)
-  grafana:
-    image: grafana/grafana:latest
-    container_name: doc_intelligence_grafana
-    restart: always
-    ports:
-      - "3001:3000"
-    environment:
-      GF_SECURITY_ADMIN_USER: admin
-      GF_SECURITY_ADMIN_PASSWORD: admin
-      GF_INSTALL_PLUGINS: grafana-piechart-panel
-    volumes:
-      - grafana_data:/var/lib/grafana
-    depends_on:
-      - prometheus
-    networks:
-      - doc_network
-    profiles:
-      - monitoring
+  
 
  
 

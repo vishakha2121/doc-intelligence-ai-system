@@ -397,18 +397,7 @@ pew/
 .venv3/
 .venv2/
 
-# ================================
-# PyCharm
-# ================================
-.idea/
-*.iml
-*.iws
-*.ipr
-/.idea/
-/out/
-.idea_modules/
-.mypy_cache/
-.dmypy.json
+
 dmypy.json
 
 

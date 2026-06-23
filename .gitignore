@@ -1,0 +1,493 @@
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+*.egg-info/
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ================================
+# Node.js / JavaScript
+# ================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+*.tsbuildinfo
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ================================
+# Environment & Secrets
+# ================================
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.test
+.env.staging
+.env.example
+*.env
+.env.backup
+.env.bak
+secrets/
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+*.keystore
+*.truststore
+
+# ================================
+# IDE / Editor
+# ================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.project
+.classpath
+.settings/
+*.iml
+.idea/
+.vscode/
+*.code-workspace
+
+# ================================
+# OS Generated
+# ================================
+Thumbs.db
+.DS_Store
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+*.tmp
+*.temp
+*.log
+*.cache
+*.pid
+*.seed
+*.pid.lock
+
+# ================================
+# Logs
+# ================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+access.log
+error.log
+app.log
+combined.log
+*.log.*
+
+# ================================
+# Uploads & Media
+# ================================
+uploads/
+uploads/temp/
+uploads/processed/
+uploads/failed/
+uploads/*.pdf
+uploads/*.png
+uploads/*.jpg
+uploads/*.jpeg
+uploads/*.tiff
+uploads/*.bmp
+media/
+media/*
+!media/.gitkeep
+*.mp4
+*.mp3
+*.wav
+*.avi
+*.mov
+
+# ================================
+# Database
+# ================================
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+postgres_data/
+redis_data/
+pgadmin_data/
+*.dump
+*.sql.gz
+
+# ================================
+# Cache & Temporary
+# ================================
+.cache/
+*.cache
+tmp/
+temp/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+*.bak
+*.backup
+*.old
+*.orig
+
+# ================================
+# Docker
+# ================================
+docker/ssl/
+*.pid
+docker-compose.override.yml
+.dockerignore
+docker-data/
+*.docker_data
+docker-compose.*.yml
+
+# ================================
+# Frontend Specific
+# ================================
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/coverage/
+frontend/.next/
+frontend/out/
+frontend/.cache/
+frontend/*.tsbuildinfo
+frontend/public/uploads/
+frontend/public/temp/
+
+# ================================
+# Backend Specific
+# ================================
+backend/venv/
+backend/__pycache__/
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+backend/instance/
+backend/.webassets-cache
+backend/.env.local
+backend/static/
+backend/media/
+backend/uploads/
+backend/logs/
+backend/models/
+backend/*.db
+backend/*.sqlite
+backend/alembic/versions/*.pyc
+backend/migrations/__pycache__/
+
+# ================================
+# Testing & Coverage
+# ================================
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+test-reports/
+test-results/
+junit.xml
+pytest-debug.log
+
+# ================================
+# Documentation
+# ================================
+docs/_build/
+docs/_static/
+docs/_templates/
+site/
+*.sphinx/
+*.doctree
+*.inv
+
+# ================================
+# CI/CD
+# ================================
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+*.plan
+*.apply
+.kube/
+.helm/
+*.kubeconfig
+*.kubeconfig.*
+*.kube
+.gitlab-ci.yml
+.github/workflows/*.local.yml
+
+# ================================
+# Monitoring & Analysis
+# ================================
+prometheus_data/
+grafana_data/
+elasticsearch_data/
+kibana_data/
+*.prof
+*.heapsnapshot
+*.cpuprofile
+*.heapdump
+
+# ================================
+# Security
+# ================================
+.ssh/
+.gnupg/
+*.gpg
+*.asc
+*.sig
+secrets/
+keys/
+certificates/
+credentials/
+password/
+*.secret
+*.encrypted
+*.enc
+
+# ================================
+# Miscellaneous
+# ================================
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.iso
+*.dmg
+*.pkg
+*.deb
+*.rpm
+*.msi
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+*.jar
+*.war
+
+# Keep empty directories
+!.gitkeep
+!.keep
+
+# ================================
+# Project Specific
+# ================================
+# OCR models
+models/
+*.traineddata
+*.traineddata.gz
+tesseract_data/
+
+# AI models
+*.pkl
+*.h5
+*.pb
+*.onnx
+*.pt
+*.pth
+*.bin
+*.model
+*.weights
+
+# Document processing
+documents/
+processed_documents/
+temp_documents/
+*.pdf.tmp
+*.jpg.tmp
+
+# Reports
+reports/
+*.report
+*.summary
+*.metrics
+
+# Export files
+*.csv
+*.xlsx
+*.xls
+*.json
+*.xml
+*.yaml
+*.yml.bak
+
+# Backup files
+*.backup
+*.bak
+*.old
+*.orig
+*.copy
+*.save
+
+# ================================
+# Python Virtual Environments
+# ================================
+venv/
+venv3/
+venv2/
+env/
+ENV/
+env.bak/
+venv.bak/
+pythonenv/
+pyenv/
+.venv/
+.python-version
+.python_env
+virtualenv/
+virtualenvs/
+pew/
+.venv3/
+.venv2/
+
+# ================================
+# PyCharm
+# ================================
+.idea/
+*.iml
+*.iws
+*.ipr
+/.idea/
+/out/
+.idea_modules/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ================================
+# VSCode
+# ================================
+.vscode/
+*.code-workspace
+*.code-snippets
+.vscode-test/
+.vscode/extensions.json
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/workspace.code-workspace
+
+# ================================
+# Jupyter Notebooks
+# ================================
+.ipynb_checkpoints/
+*.ipynb
+*.pyc
+*.pynb
+*.ipynb_checkpoints/
+
+# ================================
+# JupyterLab
+# ================================
+.jupyter/
+lab_workspaces/
+jupyterlab-workspaces/
+*.jupyterlab-workspace
+jupyter_notebook_config.py
+
+# ================================
+# Conda
+# ================================
+*.conda
+*.conda-env
+*.conda-pkg
+conda-meta/
+conda-recipes/
+
+# ================================
+# SPACY
+# ================================
+*.spacy
+*.spacy_model
+*.spacy_package
+*.pkl.spacy
+*.vocab
+*.vectors
+
+# ================================
+# TESSERACT
+# ================================
+*.traineddata
+*.traineddata.gz
+tessdata/
+tesseract_data/
+*.tesseract
+
+# ================================
+# Docker Compose Overrides
+# ================================
+docker-compose.override.yml
+docker-compose.production.yml
+docker-compose.staging.yml
+docker-compose.local.yml
+*.docker-compose.yml
+
+# ================================
+# Kubernetes
+# ================================
+*.kubeconfig
+*.kubeconfig.*
+.kube/
+*.k8s.yaml
+*.k8s.yml
+helm/
+charts/
+*.chart
+*.tgz

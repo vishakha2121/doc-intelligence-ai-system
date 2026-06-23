@@ -205,26 +205,7 @@ frontend/*.tsbuildinfo
 frontend/public/uploads/
 frontend/public/temp/
 
-# ================================
-# Backend Specific
-# ================================
-backend/venv/
-backend/__pycache__/
-backend/.pytest_cache/
-backend/.coverage
-backend/htmlcov/
-backend/instance/
-backend/.webassets-cache
-backend/.env.local
-backend/static/
-backend/media/
-backend/uploads/
-backend/logs/
-backend/models/
-backend/*.db
-backend/*.sqlite
-backend/alembic/versions/*.pyc
-backend/migrations/__pycache__/
+
 
 
 

@@ -92,21 +92,7 @@ secrets/
 .vscode/
 *.code-workspace
 
-# ================================
-# OS Generated
-# ================================
-Thumbs.db
-.DS_Store
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-*.tmp
-*.temp
-*.log
-*.cache
-*.pid
-*.seed
-*.pid.lock
+
 
 
 

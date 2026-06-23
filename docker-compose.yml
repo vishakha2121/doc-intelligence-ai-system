@@ -281,19 +281,3 @@ networks:
     driver: bridge
     name: doc_intelligence_network
 
-# Docker Volumes
-volumes:
-  postgres_data:
-    name: doc_intelligence_postgres_data
-  redis_data:
-    name: doc_intelligence_redis_data
-  pgadmin_data:
-    name: doc_intelligence_pgadmin_data
-  prometheus_data:
-    name: doc_intelligence_prometheus_data
-  grafana_data:
-    name: doc_intelligence_grafana_data
-  elasticsearch_data:
-    name: doc_intelligence_elasticsearch_data
-  tesseract_data:
-    name: doc_intelligence_tesseract_data

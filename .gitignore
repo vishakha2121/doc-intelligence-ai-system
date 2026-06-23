@@ -144,20 +144,7 @@ media/*
 *.avi
 *.mov
 
-# ================================
-# Database
-# ================================
-*.db
-*.sqlite
-*.sqlite3
-*.db-journal
-*.db-wal
-*.db-shm
-postgres_data/
-redis_data/
-pgadmin_data/
-*.dump
-*.sql.gz
+
 
 
 

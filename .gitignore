@@ -176,16 +176,7 @@ temp/
 *.old
 *.orig
 
-# ================================
-# Docker
-# ================================
-docker/ssl/
-*.pid
-docker-compose.override.yml
-.dockerignore
-docker-data/
-*.docker_data
-docker-compose.*.yml
+
 
 
 

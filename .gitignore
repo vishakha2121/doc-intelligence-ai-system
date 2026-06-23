@@ -324,27 +324,7 @@ password/
 
 # Keep empty directories
 !.gitkeep
-!.keep
 
-# ================================
-# Project Specific
-# ================================
-# OCR models
-models/
-*.traineddata
-*.traineddata.gz
-tesseract_data/
-
-# AI models
-*.pkl
-*.h5
-*.pb
-*.onnx
-*.pt
-*.pth
-*.bin
-*.model
-*.weights
 
 
 

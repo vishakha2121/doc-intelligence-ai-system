@@ -205,20 +205,7 @@ services:
     profiles:
       - devtools
 
-  # Prometheus Monitoring (Optional)
-  prometheus:
-    image: prom/prometheus:latest
-    container_name: doc_intelligence_prometheus
-    restart: always
-    ports:
-      - "9090:9090"
-    volumes:
-      - ./docker/prometheus.yml:/etc/prometheus/prometheus.yml
-      - prometheus_data:/prometheus
-    networks:
-      - doc_network
-    profiles:
-      - monitoring
+ 
 
   
 

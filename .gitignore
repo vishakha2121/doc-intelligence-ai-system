@@ -159,22 +159,6 @@ pgadmin_data/
 *.dump
 *.sql.gz
 
-# ================================
-# Cache & Temporary
-# ================================
-.cache/
-*.cache
-tmp/
-temp/
-*.tmp
-*.temp
-*.swp
-*.swo
-*~
-*.bak
-*.backup
-*.old
-*.orig
 
 
 
